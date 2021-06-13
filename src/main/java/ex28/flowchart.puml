@@ -1,0 +1,14 @@
+@startuml
+
+start
+
+repeat :start of loop;
+  :read number;
+  :add to sum;
+repeat while (Have 5 numbers?) is (no)
+->yes;
+
+:Display sum;
+stop
+
+@enduml
